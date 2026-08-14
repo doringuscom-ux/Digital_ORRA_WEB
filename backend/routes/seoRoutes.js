@@ -184,12 +184,17 @@ router.get('/sitemap.xml', async (req, res) => {
     const servicesList = await Service.find({});
     const blogsList = await Blog.find({});
 
+    // Use FRONTEND_URL from env, otherwise fallback to the requested host
+    const baseUrl = process.env.FRONTEND_URL || 'https://digitalorra.com';
+
     let xml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
     xml += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
 
     // 1. Base / Core Pages
     seoPages.forEach(p => {
-      const loc = p.canonicalUrl || `https://digitalorra.com/${p.pageSlug === 'home' ? '' : p.pageSlug}`;
+      const loc = p.canonicalUrl && p.canonicalUrl.startsWith('http') 
+        ? p.canonicalUrl 
+        : `${baseUrl}/${p.pageSlug === 'home' ? '' : p.pageSlug}`;
       xml += `  <url>\n`;
       xml += `    <loc>${loc}</loc>\n`;
       xml += `    <lastmod>${new Date(p.updatedAt).toISOString().split('T')[0]}</lastmod>\n`;
@@ -204,7 +209,7 @@ router.get('/sitemap.xml', async (req, res) => {
         ? s.id 
         : (s.title ? s.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '') : String(s._id));
       xml += `  <url>\n`;
-      xml += `    <loc>https://digitalorra.com/service/${slug}</loc>\n`;
+      xml += `    <loc>${baseUrl}/service/${slug}</loc>\n`;
       xml += `    <lastmod>${new Date().toISOString().split('T')[0]}</lastmod>\n`;
       xml += `    <changefreq>weekly</changefreq>\n`;
       xml += `    <priority>0.8</priority>\n`;
@@ -217,7 +222,7 @@ router.get('/sitemap.xml', async (req, res) => {
         ? b.id 
         : (b.title ? b.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '') : String(b._id));
       xml += `  <url>\n`;
-      xml += `    <loc>https://digitalorra.com/blog/${slug}</loc>\n`;
+      xml += `    <loc>${baseUrl}/blog/${slug}</loc>\n`;
       xml += `    <lastmod>${new Date().toISOString().split('T')[0]}</lastmod>\n`;
       xml += `    <changefreq>monthly</changefreq>\n`;
       xml += `    <priority>0.7</priority>\n`;
