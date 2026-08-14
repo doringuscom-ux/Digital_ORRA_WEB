@@ -5,7 +5,9 @@ const initialRecognitions = [...recognitionItems, ...newsList];
 import { jobOpenings as initialCareers } from '../data/careerData';
 
 
-const API_BASE = import.meta.env.VITE_API_BASE_URL || `${window.location.protocol}//${window.location.hostname}:5000/api`;
+const API_BASE = import.meta.env.DEV 
+  ? 'http://localhost:5000/api'
+  : 'https://digital-orra-web.onrender.com/api';
 
 // Helper: returns headers for protected API calls (Authorization header removed since we use HttpOnly cookies)
 const getAuthHeaders = () => {
