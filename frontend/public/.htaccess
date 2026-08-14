@@ -13,6 +13,9 @@
   # RewriteCond %{HTTPS} off
   # RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
+  # Dynamic Sitemap API Redirect
+  RewriteRule ^sitemap\.xml$ https://digital-orra-web.onrender.com/api/seo/sitemap.xml [R=301,L]
+
   # Serve existing files, directories, or symbolic links directly
   RewriteRule ^index\.html$ - [L]
   RewriteCond %{REQUEST_FILENAME} !-f
