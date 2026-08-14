@@ -1,0 +1,491 @@
+/* ==========================================================================
+   COMPANY PROFILE PAGE STYLES
+   ========================================================================== */
+.company-profile-page {
+  position: relative;
+  background: #FFFFFF;
+  color: #0F172A;
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+
+/* Background Glow Orbs */
+.cp-glow-orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(100px);
+  pointer-events: none;
+  opacity: 0.12;
+  z-index: 0;
+}
+
+.cp-glow-1 {
+  top: 5%;
+  right: -100px;
+  width: 500px;
+  height: 500px;
+  background: #E6007E;
+}
+
+.cp-glow-2 {
+  top: 45%;
+  left: -120px;
+  width: 550px;
+  height: 550px;
+  background: #3B82F6;
+}
+
+.cp-container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 24px;
+  position: relative;
+  z-index: 1;
+}
+
+/* Color Accents */
+.highlight-pink {
+  color: #E6007E;
+  position: relative;
+  display: inline-block;
+}
+
+/* ==========================================================================
+   1. HERO HEADER SECTION
+   ========================================================================== */
+.cp-hero-section {
+  text-align: center;
+  max-width: 960px;
+  margin: 0 auto 90px auto;
+}
+
+.cp-pill-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #FDF2F8;
+  border: 1px solid rgba(230, 0, 126, 0.2);
+  color: #E6007E;
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 1.2px;
+  padding: 8px 20px;
+  border-radius: 50px;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 15px rgba(230, 0, 126, 0.08);
+}
+
+.cp-hero-title {
+  font-size: 3.4rem;
+  font-weight: 900;
+  color: #0F172A;
+  line-height: 1.2;
+  margin-bottom: 24px;
+  letter-spacing: -0.5px;
+}
+
+.cp-hero-description {
+  font-size: 1.12rem;
+  line-height: 1.8;
+  color: #475569;
+  margin-bottom: 40px;
+  max-width: 880px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cp-hero-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.cp-btn-primary,
+.cp-btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 36px;
+  border-radius: 50px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+}
+
+.cp-btn-primary {
+  background: linear-gradient(135deg, #E6007E 0%, #FF4D94 100%);
+  color: #FFFFFF;
+  box-shadow: 0 10px 28px rgba(230, 0, 126, 0.32);
+}
+
+.cp-btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 16px 36px rgba(230, 0, 126, 0.45);
+  color: #FFFFFF;
+}
+
+.cp-btn-secondary {
+  background: #0F172A;
+  color: #FFFFFF;
+  box-shadow: 0 10px 28px rgba(15, 23, 42, 0.2);
+}
+
+.cp-btn-secondary:hover {
+  background: #1E293B;
+  transform: translateY(-3px);
+  box-shadow: 0 16px 36px rgba(15, 23, 42, 0.32);
+  color: #FFFFFF;
+}
+
+/* ==========================================================================
+   2. SECTION GENERAL & GRIDS (INTRO & BELIEVE)
+   ========================================================================== */
+.cp-section {
+  padding: 60px 0;
+}
+
+.cp-intro-grid,
+.cp-believe-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 60px;
+}
+
+.cp-section-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: #E6007E;
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  margin-bottom: 12px;
+}
+
+.center-eyebrow {
+  justify-content: center;
+}
+
+.eyebrow-dash {
+  width: 24px;
+  height: 2px;
+  background: #E6007E;
+  border-radius: 2px;
+}
+
+.cp-section-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #0F172A;
+  margin-bottom: 24px;
+  line-height: 1.25;
+}
+
+.cp-body-text {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #475569;
+  margin-bottom: 20px;
+}
+
+.cp-body-text:last-child {
+  margin-bottom: 0;
+}
+
+/* Visual Image Frames */
+.cp-image-card-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.cp-frame-backdrop {
+  position: absolute;
+  top: -16px;
+  left: -16px;
+  right: 16px;
+  bottom: 16px;
+  border: 2px dashed rgba(15, 23, 42, 0.15);
+  border-radius: 24px;
+  pointer-events: none;
+}
+
+.backdrop-pink {
+  border-color: rgba(230, 0, 126, 0.25);
+  top: 16px;
+  left: 16px;
+  right: -16px;
+  bottom: -16px;
+}
+
+.cp-image-box {
+  position: relative;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 20px 45px rgba(15, 23, 42, 0.1);
+  background: #090D16;
+  height: 380px;
+}
+
+.cp-intro-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.cp-image-box:hover .cp-intro-img {
+  transform: scale(1.04);
+}
+
+/* ==========================================================================
+   3. WHO WE ARE SECTION
+   ========================================================================== */
+.cp-who-we-are-banner {
+  padding: 60px 0;
+}
+
+.who-we-are-card {
+  background: linear-gradient(135deg, #050B1E 0%, #0F172A 100%);
+  border-radius: 28px;
+  padding: 50px;
+  color: #FFFFFF;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 25px 60px rgba(15, 23, 42, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.who-we-are-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, #E6007E 0%, #FF4D94 50%, #3B82F6 100%);
+}
+
+.card-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(230, 0, 126, 0.15);
+  border: 1px solid rgba(230, 0, 126, 0.3);
+  color: #FF4D94;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  padding: 6px 16px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+
+.who-we-are-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #FFFFFF;
+  margin-bottom: 18px;
+}
+
+.who-we-are-desc {
+  font-size: 1.1rem;
+  line-height: 1.85;
+  color: #CBD5E1;
+  max-width: 1040px;
+  margin: 0;
+}
+
+/* ==========================================================================
+   5. WHAT WE DO SECTION (12 SERVICE CARDS GRID)
+   ========================================================================== */
+.cp-services-section {
+  padding: 80px 0 40px 0;
+}
+
+.cp-services-header {
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto 60px auto;
+}
+
+.cp-services-main-title {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #0F172A;
+  margin-bottom: 20px;
+}
+
+.cp-services-intro-desc {
+  font-size: 1.05rem;
+  line-height: 1.85;
+  color: #475569;
+}
+
+/* 12 Services Grid */
+.cp-services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+.cp-service-card {
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 22px;
+  padding: 36px 30px;
+  position: relative;
+  transition: all 0.35s ease;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.04);
+  display: flex;
+  flex-direction: column;
+}
+
+.cp-service-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, #E6007E 0%, #FF4D94 100%);
+  border-radius: 22px 22px 0 0;
+  opacity: 0;
+  transition: opacity 0.35s ease;
+}
+
+.cp-service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 25px 50px rgba(15, 23, 42, 0.1);
+  border-color: rgba(230, 0, 126, 0.25);
+}
+
+.cp-service-card:hover::before {
+  opacity: 1;
+}
+
+.cp-service-card-top {
+  margin-bottom: 20px;
+}
+
+.cp-service-icon-box {
+  width: 60px;
+  height: 60px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #E6007E 0%, #FF4D94 100%);
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 22px rgba(230, 0, 126, 0.25);
+}
+
+.cp-service-title {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: #0F172A;
+  margin-bottom: 12px;
+}
+
+.cp-service-desc {
+  font-size: 0.94rem;
+  line-height: 1.7;
+  color: #64748B;
+  margin: 0;
+}
+
+/* Bottom CTA */
+.cp-bottom-cta {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.cp-download-big-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 18px 48px;
+  border-radius: 60px;
+  background: linear-gradient(135deg, #E6007E 0%, #FF4D94 100%);
+  color: #FFFFFF;
+  font-size: 1.05rem;
+  font-weight: 800;
+  text-decoration: none;
+  box-shadow: 0 15px 35px rgba(230, 0, 126, 0.35);
+  transition: all 0.35s ease;
+}
+
+.cp-download-big-btn:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 22px 45px rgba(230, 0, 126, 0.45);
+  color: #FFFFFF;
+}
+
+/* ==========================================================================
+   RESPONSIVE DESIGN
+   ========================================================================== */
+@media (max-width: 1024px) {
+  .cp-hero-title {
+    font-size: 2.8rem;
+  }
+
+  .cp-services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cp-intro-grid,
+  .cp-believe-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .company-profile-page {
+    padding-top: 20px;
+    padding-bottom: 60px;
+  }
+
+  .cp-hero-title {
+    font-size: 2.2rem;
+  }
+
+  .cp-hero-description {
+    font-size: 1rem;
+  }
+
+  .cp-hero-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .cp-btn-primary,
+  .cp-btn-secondary {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .cp-services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .who-we-are-card {
+    padding: 30px 24px;
+  }
+
+  .who-we-are-title {
+    font-size: 1.8rem;
+  }
+
+  .cp-services-main-title {
+    font-size: 2.2rem;
+  }
+}

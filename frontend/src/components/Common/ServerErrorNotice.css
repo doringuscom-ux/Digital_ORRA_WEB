@@ -1,0 +1,172 @@
+.server-error-notice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: rgba(15, 23, 42, 0.6);
+  border: 1px solid rgba(239, 68, 68, 0.25);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 48px 32px;
+  margin: 32px auto;
+  max-width: 680px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.4), inset 0 1px 1px rgba(255, 255, 255, 0.05);
+  position: relative;
+  overflow: hidden;
+  animation: fadeInNotice 0.4s ease-out;
+}
+
+.server-error-notice::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #ef4444, #f97316, #ef4444);
+}
+
+@keyframes fadeInNotice {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.server-error-icon-wrapper {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  background: rgba(239, 68, 68, 0.1);
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  color: #ef4444;
+  margin-bottom: 20px;
+  box-shadow: 0 0 30px rgba(239, 68, 68, 0.15);
+}
+
+.server-error-badge {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: #ef4444;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #0f172a;
+}
+
+.server-error-content {
+  margin-bottom: 24px;
+}
+
+.server-error-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #f8fafc;
+  margin-bottom: 10px;
+  letter-spacing: -0.01em;
+}
+
+.server-error-desc {
+  font-size: 0.95rem;
+  color: #94a3b8;
+  line-height: 1.6;
+  max-width: 520px;
+  margin: 0 auto 16px auto;
+}
+
+.server-error-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  font-size: 0.82rem;
+  color: #64748b;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 8px 16px;
+  border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.server-error-details code {
+  color: #cbd5e1;
+  font-family: monospace;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.server-error-status {
+  color: #f87171;
+  font-weight: 600;
+}
+
+.server-error-retry-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+  color: #ffffff;
+  font-size: 0.92rem;
+  font-weight: 600;
+  padding: 12px 28px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 18px rgba(239, 68, 68, 0.35);
+}
+
+.server-error-retry-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 24px rgba(239, 68, 68, 0.5);
+  background: linear-gradient(135deg, #f87171 0%, #ef4444 100%);
+}
+
+.server-error-retry-btn:active {
+  transform: translateY(0);
+}
+
+.server-error-retry-btn.is-spinning .retry-icon {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Compact variant for smaller sections */
+.server-error-notice.is-compact {
+  padding: 32px 20px;
+  margin: 16px auto;
+  max-width: 100%;
+}
+
+.server-error-notice.is-compact .server-error-icon-wrapper {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 14px;
+}
+
+.server-error-notice.is-compact .server-error-title {
+  font-size: 1.25rem;
+}
+
+.server-error-notice.is-compact .server-error-desc {
+  font-size: 0.88rem;
+}

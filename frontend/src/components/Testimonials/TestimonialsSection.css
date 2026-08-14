@@ -1,0 +1,392 @@
+/* Testimonials Section CSS - Digital Orra Design System */
+
+.testimonials-section-v2 {
+  position: relative;
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8FAFC 50%, #F1F5F9 100%);
+  padding: 20px 0 35px 0;
+  overflow: hidden;
+  font-family: 'Plus Jakarta Sans', 'Inter', system-ui, sans-serif;
+  border-top: 1px solid #E2E8F0;
+  border-bottom: 1px solid #E2E8F0;
+}
+
+/* Vibrant Animated Radial Glow Accents for Creative Light Design */
+.testimonials-section-v2::before {
+  content: '';
+  position: absolute;
+  top: -80px;
+  left: 15%;
+  width: 550px;
+  height: 380px;
+  background: radial-gradient(ellipse at center, rgba(230, 0, 126, 0.08) 0%, transparent 70%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.testimonials-section-v2::after {
+  content: '';
+  position: absolute;
+  bottom: -60px;
+  right: 15%;
+  width: 500px;
+  height: 350px;
+  background: radial-gradient(ellipse at center, rgba(6, 182, 212, 0.09) 0%, transparent 70%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Decorative floating quote marks */
+.testi-deco-quote {
+  position: absolute;
+  pointer-events: none;
+  color: rgba(230, 0, 126, 0.05);
+  z-index: 0;
+}
+
+.testi-deco-q1 {
+  top: -20px;
+  left: -40px;
+  transform: rotate(-15deg);
+  animation: quoteDrift1 8s ease-in-out infinite alternate;
+}
+
+.testi-deco-q2 {
+  bottom: 10px;
+  right: -20px;
+  transform: rotate(10deg);
+  animation: quoteDrift2 10s ease-in-out infinite alternate;
+}
+
+@keyframes quoteDrift1 {
+  from { transform: rotate(-15deg) translate(0, 0); }
+  to   { transform: rotate(-10deg) translate(12px, -16px); }
+}
+
+@keyframes quoteDrift2 {
+  from { transform: rotate(10deg) translate(0, 0); }
+  to   { transform: rotate(6deg) translate(-10px, 14px); }
+}
+
+
+.testimonials-container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 24px;
+  position: relative;
+  z-index: 2;
+}
+
+/* Header Styling - Light Mode High Contrast */
+.testimonials-header {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 50px;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.testimonials-pill-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #FDF2F8;
+  border: 1px solid rgba(230, 0, 126, 0.2);
+  padding: 6px 18px;
+  border-radius: 50px;
+  margin-bottom: 14px;
+}
+
+.testimonials-pill-badge span {
+  color: #E6007E;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+.testimonials-main-title {
+  font-size: clamp(2rem, 3.5vw, 2.75rem);
+  font-weight: 800;
+  line-height: 1.2;
+  color: #0F172A;
+  margin: 0 0 12px 0;
+  letter-spacing: -0.02em;
+}
+
+.highlight-pink {
+  background: linear-gradient(135deg, #E6007E, #8B5CF6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.testimonials-subtitle {
+  font-size: 1.02rem;
+  line-height: 1.6;
+  color: #475569;
+  font-weight: 500;
+  margin: 0;
+}
+
+/* Carousel Wrapper */
+.testimonials-carousel-wrapper {
+  position: relative;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* Nav Controls (Left & Right Arrow Buttons) */
+.carousel-nav-controls {
+  position: absolute;
+  top: 50%;
+  left: -20px;
+  right: -20px;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.carousel-arrow-btn {
+  pointer-events: auto;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  color: #0F172A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.08);
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.carousel-arrow-btn:hover {
+  background: #E6007E;
+  border-color: #E6007E;
+  color: #FFFFFF;
+  transform: scale(1.08);
+  box-shadow: 0 8px 20px rgba(230, 0, 126, 0.35);
+}
+
+/* Infinite Marquee Viewport & Track (Left to Right) */
+.testi-marquee-viewport {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  padding: 20px 0;
+  mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+}
+
+.testi-marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marqueeLeftToRight 35s linear infinite;
+  will-change: transform;
+}
+
+.testi-marquee-viewport:hover .testi-marquee-track {
+  animation-play-state: paused;
+}
+
+@keyframes marqueeLeftToRight {
+  0% {
+    transform: translateX(-33.333%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.testimonial-card-slide {
+  width: 260px;
+  flex-shrink: 0;
+  padding: 0 8px;
+  box-sizing: border-box;
+  opacity: 1;
+}
+
+/* Creative Glassmorphic White Card Inner Box with Soft Shadows */
+.testimonial-card-inner {
+  background: #FFFFFF;
+  border: 1.5px solid rgba(230, 0, 126, 0.15);
+  border-radius: 12px;
+  padding: 14px 16px;
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.05);
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Top Gradient Line Accent */
+.testimonial-card-inner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2.5px;
+  background: linear-gradient(90deg, #E6007E 0%, #8B5CF6 50%, #06B6D4 100%);
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+}
+
+.testimonial-card-inner:hover {
+  border-color: rgba(230, 0, 126, 0.45);
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(230, 0, 126, 0.12);
+  background: #FFFFFF;
+}
+
+.testimonial-card-inner:hover::before {
+  opacity: 1;
+}
+
+/* Card Top Head */
+.card-top-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  gap: 6px;
+}
+
+.client-avatar-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.client-avatar-icon-box {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #FDF2F8;
+  color: #E6007E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(230, 0, 126, 0.2);
+  flex-shrink: 0;
+}
+
+.client-name {
+  font-size: 0.85rem !important;
+  font-weight: 700;
+  color: #0F172A !important;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Stars Rating */
+.card-stars-row {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  flex-shrink: 0;
+}
+
+.star-filled {
+  color: #F59E0B;
+  fill: #F59E0B;
+}
+
+/* Quote Description Text */
+.quote-text {
+  font-size: 0.78rem !important;
+  line-height: 1.4 !important;
+  color: #334155 !important;
+  font-weight: 500;
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Dot Indicators */
+.carousel-dots-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  margin-top: 16px;
+}
+
+.carousel-dot-btn {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #CBD5E1;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  transition: all 0.25s ease;
+}
+
+.carousel-dot-btn.active {
+  background: #E6007E;
+  width: 20px;
+  border-radius: 10px;
+}
+
+/* ── Animated Pill Dot ── */
+.testi-pill-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #E6007E;
+  display: inline-block;
+  animation: pillPulse 1.8s ease-in-out infinite;
+}
+
+@keyframes pillPulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(230, 0, 126, 0.5); }
+  50%       { box-shadow: 0 0 0 4px rgba(230, 0, 126, 0); }
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .testimonial-card-slide {
+    width: 230px;
+  }
+  .testimonials-main-title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .testimonial-card-slide {
+    width: 200px;
+    padding: 0 5px;
+  }
+  .testimonial-card-inner {
+    padding: 10px 12px;
+    border-radius: 10px;
+  }
+  .client-avatar-icon-box {
+    width: 24px;
+    height: 24px;
+  }
+  .client-name {
+    font-size: 0.78rem !important;
+  }
+  .quote-text {
+    font-size: 0.72rem !important;
+    line-height: 1.35 !important;
+  }
+  .testimonials-main-title {
+    font-size: 1.7rem;
+  }
+}

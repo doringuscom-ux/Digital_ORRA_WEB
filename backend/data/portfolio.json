@@ -1,0 +1,645 @@
+[
+  {
+    "_id": "6a7ac21ae906fa72c4876f8a",
+    "title": "The Bharat School Website",
+    "category": "Website Design",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436650/digitalorra_dynamic/nmt17a099bjqug5de4wh.webp",
+    "link": "https://thebharatschool.com/",
+    "tags": [
+      "Website Design",
+      "Education"
+    ],
+    "createdAt": "2026-08-11T06:32:58.860Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:24:09.863Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876f8b",
+    "title": "Digital Marketing Campaign 1",
+    "category": "Digital Marketing",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436651/digitalorra_dynamic/wgmgrbec8xi6pluxqy2k.webp",
+    "tags": [
+      "Digital Marketing",
+      "Campaign"
+    ],
+    "createdAt": "2026-08-11T06:32:58.860Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:24:10.841Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876f8c",
+    "title": "Meta High-ROAS Lead Generation Ad",
+    "category": "Google/Meta Ads",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436652/digitalorra_dynamic/mxtnd3no8gqyibkvkomb.webp",
+    "tags": [
+      "Meta Ads",
+      "Lead Gen"
+    ],
+    "createdAt": "2026-08-11T06:32:58.861Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:24:11.784Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876f8d",
+    "title": "Minimalist Brand Identity Logo",
+    "category": "Logo Design",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436654/digitalorra_dynamic/ez75w1px0orcjdtrhhak.webp",
+    "tags": [
+      "Logo Design",
+      "Branding"
+    ],
+    "createdAt": "2026-08-11T06:32:58.861Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:24:13.072Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876f8e",
+    "title": "Royal Sky Trips Travel Portal",
+    "category": "Website Design",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436655/digitalorra_dynamic/kvra8duffpmchegh6kxr.webp",
+    "link": "https://royalskytrips.com/",
+    "tags": [
+      "Website Design",
+      "Travel"
+    ],
+    "createdAt": "2026-08-11T06:32:58.861Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:24:14.735Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876f8f",
+    "title": "Digital Strategy & Brand Outreach",
+    "category": "Digital Marketing",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436656/digitalorra_dynamic/izg71irr5fju7hdl0ar9.webp",
+    "tags": [
+      "Digital Marketing",
+      "Branding"
+    ],
+    "createdAt": "2026-08-11T06:32:58.861Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:24:15.774Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876f90",
+    "title": "Google Search PPC Campaign Visual",
+    "category": "Google/Meta Ads",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436657/digitalorra_dynamic/x7y09ipd2djqp7in7a2u.webp",
+    "tags": [
+      "Google Ads",
+      "PPC"
+    ],
+    "createdAt": "2026-08-11T06:32:58.861Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:24:16.786Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876f91",
+    "title": "Modern Corporate Crest Logo",
+    "category": "Logo Design",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436659/digitalorra_dynamic/mthkdywvxjerbp5a2c6q.webp",
+    "tags": [
+      "Corporate Logo",
+      "Vector"
+    ],
+    "createdAt": "2026-08-11T06:32:58.861Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:24:18.027Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876f92",
+    "title": "Digital Orra Platform",
+    "category": "Website Design",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436660/digitalorra_dynamic/poafnjmhje4u4gzvgchd.webp",
+    "link": "https://digitalorra.digital/",
+    "tags": [
+      "Website Design",
+      "Agency"
+    ],
+    "createdAt": "2026-08-11T06:32:58.861Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:24:19.143Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876f93",
+    "title": "Social Media Organic Growth",
+    "category": "Digital Marketing",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436661/digitalorra_dynamic/frh5pkquxve4dcg539yd.webp",
+    "tags": [
+      "Social Growth",
+      "Content"
+    ],
+    "createdAt": "2026-08-11T06:32:58.862Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:24:20.138Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876f94",
+    "title": "Facebook Carousel Ad Funnel Creative",
+    "category": "Google/Meta Ads",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436662/digitalorra_dynamic/vivp0otj69rgrqqrq97k.webp",
+    "tags": [
+      "Facebook Ads",
+      "Carousel"
+    ],
+    "createdAt": "2026-08-11T06:32:58.862Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:24:21.394Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876f95",
+    "title": "Creative Agency Logo Concept",
+    "category": "Logo Design",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436663/digitalorra_dynamic/gtvmeo0l1udbcvnykwfl.webp",
+    "tags": [
+      "Creative Design",
+      "Logo"
+    ],
+    "createdAt": "2026-08-11T06:32:58.862Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:24:22.397Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876f96",
+    "title": "Target Greenland Website",
+    "category": "Website Design",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436664/digitalorra_dynamic/yt7yml4ndrmjjyh7vsql.webp",
+    "link": "https://targetgreenland.com/",
+    "tags": [
+      "Website Design",
+      "Corporate"
+    ],
+    "createdAt": "2026-08-11T06:32:58.862Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:24:23.357Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876f97",
+    "title": "Performance Content Marketing",
+    "category": "Digital Marketing",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436665/digitalorra_dynamic/wdfdbimp8um25yugpcdx.webp",
+    "tags": [
+      "Content",
+      "Marketing"
+    ],
+    "createdAt": "2026-08-11T06:32:58.862Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:24:24.440Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876f98",
+    "title": "Instagram Story High Conversion Ad",
+    "category": "Google/Meta Ads",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436666/digitalorra_dynamic/rd1laejzd72mpkk9g5o4.webp",
+    "tags": [
+      "Instagram Ads",
+      "Story"
+    ],
+    "createdAt": "2026-08-11T06:32:58.862Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:24:25.738Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876f99",
+    "title": "Luxury Monogram Insignia",
+    "category": "Logo Design",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436667/digitalorra_dynamic/pjopi1nfu2n2fqzqg24i.webp",
+    "tags": [
+      "Monogram",
+      "Luxury"
+    ],
+    "createdAt": "2026-08-11T06:32:58.862Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:24:26.781Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876f9a",
+    "title": "Orion Properties Web Portal",
+    "category": "Website Design",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436669/digitalorra_dynamic/xz6dhnf0keiksporhwmf.webp",
+    "link": "https://orionproperties.info/",
+    "tags": [
+      "Website Design",
+      "Real Estate"
+    ],
+    "createdAt": "2026-08-11T06:32:58.862Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:24:28.202Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876f9b",
+    "title": "Multi-Channel Brand Strategy",
+    "category": "Digital Marketing",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436670/digitalorra_dynamic/vpcweq0bpsht0eqcbzdw.webp",
+    "tags": [
+      "Brand Strategy",
+      "Reach"
+    ],
+    "createdAt": "2026-08-11T06:32:58.863Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:24:29.185Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876f9c",
+    "title": "Google Performance Max Ad Scaling",
+    "category": "Google/Meta Ads",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436671/digitalorra_dynamic/rz7viirud2ycaczr3ses.webp",
+    "tags": [
+      "PMax",
+      "Google Ads"
+    ],
+    "createdAt": "2026-08-11T06:32:58.863Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:24:30.263Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876f9d",
+    "title": "Tech Startup Mascot Logo",
+    "category": "Logo Design",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436672/digitalorra_dynamic/v1gwlngl4ogqkeokvtkg.webp",
+    "tags": [
+      "Tech Logo",
+      "Mascot"
+    ],
+    "createdAt": "2026-08-11T06:32:58.863Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:24:31.267Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876f9e",
+    "title": "Orion Properties Showcase",
+    "category": "Website Design",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436673/digitalorra_dynamic/jce56vvldhtkfhlicbwf.webp",
+    "link": "https://orionproperties.info/",
+    "tags": [
+      "Website Design",
+      "Property"
+    ],
+    "createdAt": "2026-08-11T06:32:58.863Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:24:32.476Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876f9f",
+    "title": "Creative Reel & Video Marketing",
+    "category": "Digital Marketing",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436674/digitalorra_dynamic/qjgnfljcqjifi2vedepx.webp",
+    "tags": [
+      "Video Reel",
+      "Social"
+    ],
+    "createdAt": "2026-08-11T06:32:58.863Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:24:33.562Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876fa0",
+    "title": "Meta Audience Retargeting Campaign",
+    "category": "Google/Meta Ads",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436675/digitalorra_dynamic/fpiq60wfu3fajyhx2wov.webp",
+    "tags": [
+      "Retargeting",
+      "Meta"
+    ],
+    "createdAt": "2026-08-11T06:32:58.863Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:24:34.615Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876fa1",
+    "title": "E-Commerce Brand Symbol",
+    "category": "Logo Design",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436676/digitalorra_dynamic/qvlxqchbtjonvqfckvbs.webp",
+    "tags": [
+      "Symbol",
+      "E-Commerce"
+    ],
+    "createdAt": "2026-08-11T06:32:58.864Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:24:35.747Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876fa2",
+    "title": "Organic Reach & Traffic Scaling",
+    "category": "Digital Marketing",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436677/digitalorra_dynamic/orlsfpu884ds8usm98ky.webp",
+    "tags": [
+      "SEO",
+      "Traffic"
+    ],
+    "createdAt": "2026-08-11T06:32:58.864Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:24:36.706Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876fa3",
+    "title": "E-Commerce High Intent Conversion Ad",
+    "category": "Google/Meta Ads",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436678/digitalorra_dynamic/jcaeswmzwsj1nulnh4l5.webp",
+    "tags": [
+      "D2C Ads",
+      "ROAS"
+    ],
+    "createdAt": "2026-08-11T06:32:58.864Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:24:37.780Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876fa4",
+    "title": "Elegant Typography Emblem",
+    "category": "Logo Design",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436679/digitalorra_dynamic/cuda12pldvpd8x36wkwc.webp",
+    "tags": [
+      "Typography",
+      "Emblem"
+    ],
+    "createdAt": "2026-08-11T06:32:58.864Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:24:38.825Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876fa5",
+    "title": "Digital Media Growth Showcase",
+    "category": "Digital Marketing",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436680/digitalorra_dynamic/edoxbhtiom4eswtftey4.webp",
+    "tags": [
+      "Media",
+      "Showcase"
+    ],
+    "createdAt": "2026-08-11T06:32:58.864Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:24:39.915Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876fa6",
+    "title": "Google & Meta Ads Performance Dashboard",
+    "category": "Google/Meta Ads",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436681/digitalorra_dynamic/wpi6x6nswkzug2y7tez4.webp",
+    "tags": [
+      "Analytics",
+      "ROAS"
+    ],
+    "createdAt": "2026-08-11T06:32:58.864Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:24:40.967Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876fa7",
+    "title": "Geometric Vector Logo Design",
+    "category": "Logo Design",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436683/digitalorra_dynamic/lvsohczy127psliuy229.webp",
+    "tags": [
+      "Geometric",
+      "Vector"
+    ],
+    "createdAt": "2026-08-11T06:32:58.864Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:24:41.983Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876fa8",
+    "title": "Brand Awareness & Lead Campaign",
+    "category": "Digital Marketing",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436684/digitalorra_dynamic/k5u1zn68hgaeyzmxhjbj.webp",
+    "tags": [
+      "Lead Gen",
+      "Brand"
+    ],
+    "createdAt": "2026-08-11T06:32:58.864Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:24:43.053Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876fa9",
+    "title": "Healthcare & Wellness Logo",
+    "category": "Logo Design",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436685/digitalorra_dynamic/czwbv0yszkhvnecrdfkq.webp",
+    "tags": [
+      "Healthcare",
+      "Wellness"
+    ],
+    "createdAt": "2026-08-11T06:32:58.865Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:24:44.177Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876faa",
+    "title": "Targeted Customer Acquisition",
+    "category": "Digital Marketing",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436686/digitalorra_dynamic/qvdxvdv9tln6ejgx9fwj.webp",
+    "tags": [
+      "Acquisition",
+      "Targeting"
+    ],
+    "createdAt": "2026-08-11T06:32:58.865Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:24:45.264Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876fab",
+    "title": "Real Estate Firm Landmark Logo",
+    "category": "Logo Design",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436687/digitalorra_dynamic/ybdah6hxerithgoad1ci.webp",
+    "tags": [
+      "Real Estate",
+      "Logo"
+    ],
+    "createdAt": "2026-08-11T06:32:58.865Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:24:46.273Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876fac",
+    "title": "Omnichannel Marketing Funnel",
+    "category": "Digital Marketing",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436688/digitalorra_dynamic/nmmytvrxdoowo6frrtyb.webp",
+    "tags": [
+      "Omnichannel",
+      "Funnel"
+    ],
+    "createdAt": "2026-08-11T06:32:58.865Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:24:47.321Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876fad",
+    "title": "Fintech App Icon & Logo",
+    "category": "Logo Design",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436689/digitalorra_dynamic/wp1wwimhj5winfxe8e7y.webp",
+    "tags": [
+      "Fintech",
+      "App Icon"
+    ],
+    "createdAt": "2026-08-11T06:32:58.865Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:24:48.401Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876fae",
+    "title": "Hospitality & Hotel Crest",
+    "category": "Logo Design",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436690/digitalorra_dynamic/ev3wphbgxws98mse5arp.webp",
+    "tags": [
+      "Hospitality",
+      "Crest"
+    ],
+    "createdAt": "2026-08-11T06:32:58.865Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:24:49.488Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876faf",
+    "title": "Automotive Performance Logo",
+    "category": "Logo Design",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436691/digitalorra_dynamic/o34swc2pun4sbg7ppumk.webp",
+    "tags": [
+      "Automotive",
+      "Insignia"
+    ],
+    "createdAt": "2026-08-11T06:32:58.865Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:24:50.474Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876fb0",
+    "title": "Fitness & Sportware Brand Emblem",
+    "category": "Logo Design",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436692/digitalorra_dynamic/jbq1ginprervh5hshad7.webp",
+    "tags": [
+      "Fitness",
+      "Apparel"
+    ],
+    "createdAt": "2026-08-11T06:32:58.866Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:24:51.557Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876fb1",
+    "title": "Restaurant & Cafe Mascot Logo",
+    "category": "Logo Design",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436693/digitalorra_dynamic/po1fzud3mivqf6cunuc3.webp",
+    "tags": [
+      "Food & Cafe",
+      "Logo"
+    ],
+    "createdAt": "2026-08-11T06:32:58.866Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:24:53.036Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876fb2",
+    "title": "Academy & Education Shield Logo",
+    "category": "Logo Design",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436695/digitalorra_dynamic/rpj0wvlh1uns7bebeuxi.webp",
+    "tags": [
+      "Education",
+      "Shield"
+    ],
+    "createdAt": "2026-08-11T06:32:58.866Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:24:54.001Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876fb3",
+    "title": "SaaS Platform Identity Logo",
+    "category": "Logo Design",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436696/digitalorra_dynamic/gw3jeuozynwq9ek57ict.webp",
+    "tags": [
+      "SaaS",
+      "Identity"
+    ],
+    "createdAt": "2026-08-11T06:32:58.866Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:24:55.113Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876fb4",
+    "title": "Fashion Boutique Emblem",
+    "category": "Logo Design",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436697/digitalorra_dynamic/avyz52gxqkr4ihpoljhm.webp",
+    "tags": [
+      "Fashion",
+      "Emblem"
+    ],
+    "createdAt": "2026-08-11T06:32:58.866Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:24:56.110Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876fb5",
+    "title": "Logistics & Supply Chain Mark",
+    "category": "Logo Design",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436698/digitalorra_dynamic/ij6p3ccxikwdj51qawej.webp",
+    "tags": [
+      "Logistics",
+      "Vector"
+    ],
+    "createdAt": "2026-08-11T06:32:58.866Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:24:57.127Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876fb6",
+    "title": "Cybersecurity Shield Insignia",
+    "category": "Logo Design",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436699/digitalorra_dynamic/wsowsiqumdzlm9mlsn0o.webp",
+    "tags": [
+      "Security",
+      "Shield"
+    ],
+    "createdAt": "2026-08-11T06:32:58.866Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:24:58.108Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876fb7",
+    "title": "Organic Brand Vector Crest",
+    "category": "Logo Design",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436700/digitalorra_dynamic/qtqmsjd0kou4kvee3yle.webp",
+    "tags": [
+      "Organic",
+      "Crest"
+    ],
+    "createdAt": "2026-08-11T06:32:58.866Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:24:59.252Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876fb8",
+    "title": "Media & Production Logo Mark",
+    "category": "Logo Design",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436701/digitalorra_dynamic/kliecrafl70nb2o75jtj.webp",
+    "tags": [
+      "Media",
+      "Logo"
+    ],
+    "createdAt": "2026-08-11T06:32:58.867Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:25:00.274Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876fb9",
+    "title": "Prestige Jewelry Monogram",
+    "category": "Logo Design",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436702/digitalorra_dynamic/devuwotcffuncxg62gne.webp",
+    "tags": [
+      "Jewelry",
+      "Monogram"
+    ],
+    "createdAt": "2026-08-11T06:32:58.867Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:25:01.331Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876fbb",
+    "title": "Industrial & Construction Crest",
+    "category": "Logo Design",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436703/digitalorra_dynamic/zmnflrbwbuqwgiy7kbuy.webp",
+    "tags": [
+      "Construction",
+      "Crest"
+    ],
+    "createdAt": "2026-08-11T06:32:58.867Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:25:02.330Z"
+  }
+]

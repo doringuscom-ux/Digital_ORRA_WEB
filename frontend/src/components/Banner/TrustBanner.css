@@ -1,0 +1,205 @@
+/* Trust Banner Container */
+.digitalorra-trust-banner {
+  width: 100%;
+  background-color: #ffffff;
+  border-top: 1px solid #f1f5f9;
+  border-bottom: 1px solid #f1f5f9;
+  padding: 18px 0;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
+  font-family: 'Plus Jakarta Sans', 'Inter', sans-serif;
+  position: relative;
+  z-index: 10;
+}
+
+.trust-banner-container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* Left Tagline Box */
+.trust-tagline-box {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.25;
+}
+
+.trust-label {
+  font-size: 0.76rem;
+  font-weight: 800;
+  color: #E6007E;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+
+.trust-businesses {
+  font-size: 0.88rem;
+  font-weight: 800;
+  color: #0F172A;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.pink-text {
+  color: #E6007E;
+  font-weight: 900;
+}
+
+/* Vertical Divider Line */
+.trust-v-divider {
+  width: 1px;
+  height: 36px;
+  background-color: #e2e8f0;
+}
+
+/* Stat Item Styling */
+.trust-stat-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* Squircle Icon Background */
+.trust-icon-squircle {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background-color: #FDF2F8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  border: 1px solid rgba(230, 0, 126, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.trust-stat-item:hover .trust-icon-squircle {
+  transform: translateY(-2px);
+  background-color: #fce7f3;
+}
+
+.trust-icon {
+  color: #E6007E;
+}
+
+.trust-icon.star-fill {
+  fill: rgba(230, 0, 126, 0.15);
+}
+
+/* Stat Numbers & Subtext */
+.trust-stat-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.trust-number {
+  font-size: 1.22rem;
+  font-weight: 800;
+  color: #0F172A;
+  line-height: 1.15;
+  letter-spacing: -0.3px;
+}
+
+.trust-subtext {
+  font-size: 0.76rem;
+  font-weight: 500;
+  color: #64748B;
+  white-space: nowrap;
+}
+
+/* Right Avatar Stack Group */
+.trust-avatar-stack {
+  display: flex;
+  align-items: center;
+}
+
+.avatar-circle-img {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  object-fit: cover;
+  margin-left: -10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, z-index 0.2s ease;
+}
+
+.avatar-circle-img:first-child {
+  margin-left: 0;
+}
+
+.avatar-circle-img:hover {
+  transform: translateY(-3px) scale(1.1);
+  z-index: 10;
+}
+
+/* Plus Badge */
+.avatar-plus-badge {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background-color: #E6007E;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -10px;
+  box-shadow: 0 2px 8px rgba(230, 0, 126, 0.3);
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.avatar-plus-badge:hover {
+  background-color: #d00071;
+  transform: translateY(-3px) scale(1.1);
+  z-index: 10;
+}
+
+/* ===================================================
+   RESPONSIVE DESIGN (Laptop, Tablet, Mobile)
+   =================================================== */
+
+@media (max-width: 1100px) {
+  .trust-banner-container {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 16px;
+  }
+
+  .trust-v-divider {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .digitalorra-trust-banner {
+    padding: 16px 0;
+  }
+
+  .trust-banner-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 12px;
+  }
+
+  .trust-tagline-box {
+    grid-column: span 2;
+    text-align: center;
+    align-items: center;
+  }
+
+  .trust-avatar-stack {
+    grid-column: span 2;
+    justify-content: center;
+    margin-top: 4px;
+  }
+
+  .trust-stat-item {
+    justify-content: center;
+  }
+}

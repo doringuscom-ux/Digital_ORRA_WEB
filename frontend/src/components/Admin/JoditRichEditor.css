@@ -1,0 +1,212 @@
+.jodit-editor-container {
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 12px;
+  background: #0f172a;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  margin-top: 6px;
+}
+
+.jodit-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 12px;
+  background: #1e293b;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.jodit-toolbar-group {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.jodit-divider {
+  width: 1px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.15);
+  margin: 0 4px;
+}
+
+.jodit-btn {
+  background: transparent;
+  border: 1px solid transparent;
+  color: #cbd5e1;
+  padding: 6px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.jodit-btn:hover {
+  background: rgba(236, 72, 153, 0.2);
+  color: #ec4899;
+  border-color: rgba(236, 72, 153, 0.4);
+  transform: translateY(-1px);
+}
+
+.jodit-mode-tabs {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: rgba(15, 23, 42, 0.6);
+  padding: 3px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.jodit-mode-btn {
+  background: transparent;
+  border: none;
+  color: #94a3b8;
+  padding: 5px 10px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: all 0.2s ease;
+}
+
+.jodit-mode-btn:hover {
+  color: #f8fafc;
+}
+
+.jodit-mode-btn.active {
+  background: linear-gradient(135deg, #ec4899 0%, #8b5cf6 100%);
+  color: #ffffff;
+  box-shadow: 0 2px 8px rgba(236, 72, 153, 0.4);
+}
+
+.jodit-editor-body {
+  min-height: 340px;
+  max-height: 540px;
+  overflow-y: auto;
+  background: #0b1329;
+  position: relative;
+}
+
+.jodit-visual-area {
+  min-height: 340px;
+  padding: 16px;
+  color: #e2e8f0;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  outline: none;
+}
+
+.jodit-visual-area:empty:before {
+  content: attr(data-placeholder);
+  color: #64748b;
+  pointer-events: none;
+}
+
+.jodit-visual-area h2 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #f8fafc;
+  margin: 16px 0 8px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  padding-bottom: 6px;
+}
+
+.jodit-visual-area h3 {
+  font-size: 1.18rem;
+  font-weight: 600;
+  color: #f1f5f9;
+  margin: 14px 0 6px 0;
+}
+
+.jodit-visual-area p {
+  margin-bottom: 12px;
+}
+
+.jodit-visual-area ul, .jodit-visual-area ol {
+  padding-left: 24px;
+  margin-bottom: 12px;
+}
+
+.jodit-visual-area li {
+  margin-bottom: 4px;
+}
+
+.jodit-visual-area blockquote {
+  border-left: 3px solid #ec4899;
+  padding-left: 14px;
+  margin: 14px 0;
+  color: #cbd5e1;
+  font-style: italic;
+  background: rgba(236, 72, 153, 0.05);
+  padding: 8px 14px;
+  border-radius: 0 6px 6px 0;
+}
+
+.jodit-visual-area a {
+  color: #38bdf8;
+  text-decoration: underline;
+}
+
+.jodit-code-area {
+  width: 100%;
+  min-height: 260px;
+  height: 100%;
+  padding: 16px;
+  background: #090d16;
+  color: #38bdf8;
+  font-family: 'Fira Code', Consolas, Monaco, monospace;
+  font-size: 0.88rem;
+  line-height: 1.6;
+  border: none;
+  outline: none;
+  resize: vertical;
+}
+
+.jodit-preview-area {
+  padding: 20px;
+  background: #0f172a;
+  color: #e2e8f0;
+  min-height: 260px;
+}
+
+.jodit-preview-area h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-top: 18px;
+  margin-bottom: 10px;
+}
+
+.jodit-preview-area h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #f1f5f9;
+  margin-top: 14px;
+  margin-bottom: 8px;
+}
+
+.jodit-preview-area p {
+  margin-bottom: 12px;
+  line-height: 1.7;
+}
+
+.jodit-footer-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 14px;
+  background: #1e293b;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  font-size: 0.75rem;
+  color: #94a3b8;
+}

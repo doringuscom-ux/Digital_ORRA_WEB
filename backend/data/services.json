@@ -1,0 +1,322 @@
+[
+  {
+    "_id": "6a7ac21ae906fa72c4876f74",
+    "title": "Social Media Handling",
+    "category": "Social & Brand",
+    "tag": "Brand Social",
+    "desc": "End-to-end social media management, creative content strategy, community engagement, and viral organic growth.",
+    "features": [
+      "Content Strategy & Copywriting",
+      "Reels & Carousel Creation",
+      "Community & DM Management",
+      "Monthly Analytics & Growth"
+    ],
+    "createdAt": "2026-08-11T06:32:58.733Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T06:32:58.740Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876f75",
+    "title": "Performance Marketing",
+    "category": "Performance",
+    "tag": "High ROAS",
+    "desc": "Data-driven full-funnel media buying engineered to scale customer acquisition and ROAS.",
+    "features": [
+      "Multi-Channel Funnel Architecture",
+      "Real-Time Budget Scaling",
+      "Audience Retargeting",
+      "Conversion Rate Optimization"
+    ],
+    "createdAt": "2026-08-11T06:32:58.736Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T06:32:58.741Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876f76",
+    "title": "Video Editing & Motion Graphics",
+    "category": "Social & Brand",
+    "tag": "Viral Video",
+    "desc": "Professional high-converting video editing, 2D/3D motion graphics, viral reel editing, kinetic typography, and sound design.",
+    "features": [
+      "Short-Form Reel & TikTok Editing",
+      "Cinematic Color Grading & FX",
+      "Motion Graphics & Kinetic Text",
+      "Audio Enhancement & Sound FX"
+    ],
+    "createdAt": "2026-08-11T06:32:58.736Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T06:32:58.741Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876f77",
+    "title": "Digital Marketing Strategy & Growth",
+    "category": "Performance",
+    "tag": "360° Growth",
+    "desc": "Comprehensive 360-degree digital marketing roadmap, brand positioning, omnichannel customer acquisition, and revenue growth strategies.",
+    "features": [
+      "Omnichannel Campaign Architecture",
+      "Competitor & Market Intelligence",
+      "Customer Lifetime Value (LTV) Boost",
+      "Data Analytics & Executive Dashboards"
+    ],
+    "createdAt": "2026-08-11T06:32:58.737Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T06:32:58.741Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876f78",
+    "title": "Web & App Development",
+    "category": "Development",
+    "tag": "Web & Mobile Stack",
+    "desc": "Custom websites, web apps, and native mobile apps built with React, Next.js & Flutter for peak performance.",
+    "features": [
+      "Custom React & Next.js Web Build",
+      "Native iOS & Android Mobile Apps",
+      "Ultra-Fast Speed & Cloud API Architecture",
+      "SEO, Security & App Store Publishing"
+    ],
+    "createdAt": "2026-08-11T06:32:58.737Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T06:32:58.741Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876f79",
+    "title": "Meta Ads",
+    "category": "Performance",
+    "tag": "Paid Social",
+    "desc": "Precision-targeted Facebook & Instagram ad campaigns designed to generate high-intent leads.",
+    "features": [
+      "A/B Ad Creative Testing",
+      "Custom & Lookalike Audiences",
+      "Pixel & CAPI Event Setup",
+      "ROAS Optimization & Scaling"
+    ],
+    "createdAt": "2026-08-11T06:32:58.737Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T06:32:58.741Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876f7a",
+    "title": "SEO (Search Engine Optimization)",
+    "category": "Search & Organic",
+    "tag": "Google Ranks",
+    "desc": "Dominate Google search result pages (SERPs) with data-backed technical SEO.",
+    "features": [
+      "Technical SEO & Site Audits",
+      "High-Intent Keyword Targeting",
+      "Authority Backlink Building",
+      "Local GMB Rank Scaling"
+    ],
+    "createdAt": "2026-08-11T06:32:58.738Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T06:32:58.741Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876f7b",
+    "title": "Google Ads (PPC)",
+    "category": "Performance",
+    "tag": "High Intent",
+    "desc": "Capture high-intent buyers searching for your solutions on Google Search, YouTube, and PMax.",
+    "features": [
+      "Search & PMax Campaigns",
+      "Negative Keyword Filtering",
+      "High-Converting Ad Copy",
+      "Bidding Strategy Tuning"
+    ],
+    "createdAt": "2026-08-11T06:32:58.738Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T06:32:58.741Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876f7c",
+    "title": "AIO (AI Optimization)",
+    "category": "Search & AI",
+    "tag": "AI Tech",
+    "desc": "Leverage cutting-edge AI tools to automate workflows, personalize customer touchpoints, and scale speed.",
+    "features": [
+      "AI Content Engineering",
+      "Predictive User Targeting",
+      "Automated Lead Nurturing",
+      "AI Search Optimization"
+    ],
+    "createdAt": "2026-08-11T06:32:58.738Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T06:32:58.741Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876f7d",
+    "title": "Corporate Video Shoots",
+    "category": "Social & Brand",
+    "tag": "Video Production",
+    "desc": "Professional corporate video shoots and high-impact video editing tailored to communicate your brand story with authority.",
+    "features": [
+      "Reels & Shorts Editing",
+      "Dynamic Hooks & Captions",
+      "Motion Graphics & FX",
+      "4K Video Production"
+    ],
+    "createdAt": "2026-08-11T06:32:58.738Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T06:32:58.742Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876f7e",
+    "title": "Graphic Designing",
+    "category": "Social & Brand",
+    "tag": "Brand Identity",
+    "desc": "Eye-catching visual branding, social media ad creatives, carousels, and brand identity design.",
+    "features": [
+      "High-CTR Ad Banners",
+      "Brand Identity Guidelines",
+      "Social Media Templates",
+      "UI/UX Visual Mockups"
+    ],
+    "createdAt": "2026-08-11T06:32:58.739Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T06:32:58.742Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876f7f",
+    "title": "WhatsApp Integration",
+    "category": "Automation",
+    "tag": "Automated Chat",
+    "desc": "Broadcast campaigns, automated sales funnels, and AI chatbot integration via WhatsApp Business API.",
+    "features": [
+      "Official API Verification",
+      "Automated Chatbot Triggers",
+      "Bulk Segmented Broadcasts",
+      "CRM Funnel Sync"
+    ],
+    "createdAt": "2026-08-11T06:32:58.739Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T06:32:58.742Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876f80",
+    "title": "UGC Creator Content",
+    "category": "Social & Brand",
+    "tag": "Viral Reels",
+    "desc": "Authentic User-Generated Content (UGC) video ads engineered to build trust and drive conversions.",
+    "features": [
+      "Creator Matchmaking",
+      "Conversion Scripting",
+      "Multi-Angle Video Ads",
+      "A/B Hook Testing"
+    ],
+    "createdAt": "2026-08-11T06:32:58.739Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T06:32:58.742Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876f81",
+    "title": "Influencer Marketing",
+    "category": "Social & Brand",
+    "tag": "Creator Reach",
+    "desc": "Niche creator collaborations, celebrity PR campaigns, and brand endorsement strategies.",
+    "features": [
+      "Creator Matchmaking",
+      "Contract Management",
+      "Campaign ROI Tracking",
+      "Viral Challenge Campaigns"
+    ],
+    "createdAt": "2026-08-11T06:32:58.739Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T06:32:58.742Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876f82",
+    "title": "Celebrity Endorsement",
+    "category": "Social & Brand",
+    "tag": "Elite Branding",
+    "desc": "High-tier celebrity brand partnerships, ambassador tie-ups, and executive endorsements to establish instant national recognition.",
+    "features": [
+      "A-List Celebrity Matchmaking",
+      "Brand Ambassador Contracts",
+      "High-Impact Ad Campaigns",
+      "National Brand Elevation"
+    ],
+    "createdAt": "2026-08-11T06:32:58.739Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T06:32:58.742Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876f83",
+    "title": "CRM & ERP Solutions",
+    "category": "Development",
+    "tag": "Enterprise Tools",
+    "desc": "Tailor-made customer relationship management systems and automated business operations software.",
+    "features": [
+      "Custom Pipeline Architecture",
+      "Sales Automation Engine",
+      "Lead Scoring Systems",
+      "Multi-Team ERP Sync"
+    ],
+    "createdAt": "2026-08-11T06:32:58.739Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T06:32:58.742Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876f84",
+    "title": "AEO (Answer Engine)",
+    "category": "Search & AI",
+    "tag": "AI Direct Answers",
+    "desc": "Optimize your digital content for direct conversational AI engines like Perplexity, Claude, and Google AI Overviews.",
+    "features": [
+      "Conversational Query Targeting",
+      "Direct Answer Snippets",
+      "Schema & Entity Markup",
+      "Perplexity Visibility"
+    ],
+    "createdAt": "2026-08-11T06:32:58.739Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T06:32:58.742Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876f85",
+    "title": "GEO (Generative Engine)",
+    "category": "Search & AI",
+    "tag": "LLM Citations",
+    "desc": "Get your brand cited and recommended on ChatGPT, SearchGPT, Perplexity AI, and Claude.",
+    "features": [
+      "AI Search Engine Citations",
+      "Knowledge Graph Schema",
+      "LLM Brand Authority",
+      "Predictive Intent Content"
+    ],
+    "createdAt": "2026-08-11T06:32:58.739Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T06:32:58.742Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876f86",
+    "title": "SXO (Search UX)",
+    "category": "Search & UX",
+    "tag": "SEO + UX",
+    "desc": "Combine technical search engine optimization with seamless UI/UX design and instant page loads to convert search traffic into customers.",
+    "features": [
+      "Heatmap & Behavior Analysis",
+      "Checkout Friction Removal",
+      "Core Web Vitals Tuning",
+      "Intent-Matched UX"
+    ],
+    "createdAt": "2026-08-11T06:32:58.740Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T06:32:58.742Z"
+  },
+  {
+    "_id": "6a7ac21ae906fa72c4876f87",
+    "title": "360° Virtual Tour",
+    "category": "Virtual & Immersive",
+    "tag": "360° Immersive",
+    "desc": "High-definition 360-degree interactive 3D virtual tour services in India for real estate, hotels, schools, showrooms, and commercial properties.",
+    "features": [
+      "HDR 360° Panorama Photography",
+      "Google Street View Sync",
+      "Interactive Hotspots",
+      "VR Headset Compatible Tours"
+    ],
+    "createdAt": "2026-08-11T06:32:58.740Z",
+    "updatedAt": "2026-08-11T06:32:58.740Z",
+    "__v": 0
+  }
+]

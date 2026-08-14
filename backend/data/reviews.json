@@ -1,0 +1,112 @@
+[
+  {
+    "_id": "6a7ac5eaa64cdbce8adc8fee",
+    "clientName": "saerrf322",
+    "role": "Client",
+    "company": "digital ORRA",
+    "rating": 5,
+    "quote": "wow this is amazing platform for learning .",
+    "createdAt": "2026-08-11T06:49:14.630Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T06:49:14.635Z"
+  },
+  {
+    "_id": "6a7ac5eaa64cdbce8adc8fef",
+    "clientName": "Tanishak",
+    "role": "Client",
+    "company": "Growth Retail",
+    "rating": 5,
+    "quote": "One of the best digital marketing agencies I've worked with. Digital ORRA delivers high-quality work, timely updates, and excellent results.",
+    "createdAt": "2026-08-11T06:49:14.633Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T06:49:14.637Z"
+  },
+  {
+    "_id": "6a7ac5eaa64cdbce8adc8ff0",
+    "clientName": "Happy",
+    "role": "Client",
+    "company": "Fitness Studio",
+    "rating": 5,
+    "quote": "Amazing experience at Digital Orra! The environment is super friendly and the mentors are very experienced. We learned both theory and practical.",
+    "createdAt": "2026-08-11T06:49:14.633Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T06:49:14.637Z"
+  },
+  {
+    "_id": "6a7ac5eaa64cdbce8adc8ff1",
+    "clientName": "Advisory Solutions",
+    "role": "Client",
+    "company": "Financial Services",
+    "rating": 5,
+    "quote": "Digital ORRA is truly the best digital marketing company in Panchkula! If you want to take your business to the next level, don't think twice.",
+    "createdAt": "2026-08-11T06:49:14.633Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T06:49:14.637Z"
+  },
+  {
+    "_id": "6a7ac5eaa64cdbce8adc8ff2",
+    "clientName": "Shubham",
+    "role": "Client",
+    "company": "E-Com Brand",
+    "rating": 5,
+    "quote": "I had a great experience at Digital ORRA. The well-structured course provided practical insights that are directly applicable to my career.",
+    "createdAt": "2026-08-11T06:49:14.633Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T06:49:14.637Z"
+  },
+  {
+    "_id": "6a7ac5eaa64cdbce8adc8ff3",
+    "clientName": "Vyom Krishna",
+    "role": "Client",
+    "company": "Tech Innovations",
+    "rating": 5,
+    "quote": "Digital ORRA handles all our website updates, Google ranking, and social media campaigns — all under one roof. Super reliable and professional!",
+    "createdAt": "2026-08-11T06:49:14.634Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T06:49:14.637Z"
+  },
+  {
+    "_id": "6a7ac5eaa64cdbce8adc8ff4",
+    "clientName": "Rajesh Khanna",
+    "role": "Client",
+    "company": "Real Estate Group",
+    "rating": 5,
+    "quote": "Digital Orra delivered hyper-targeted buyer leads for our project launch. Conversion rates and sales closing were outstanding.",
+    "createdAt": "2026-08-11T06:49:14.634Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T06:49:14.637Z"
+  },
+  {
+    "_id": "6a7ac5eaa64cdbce8adc8ff5",
+    "clientName": "Sonam Sharma",
+    "role": "Client",
+    "company": "Boutique Fashion",
+    "rating": 5,
+    "quote": "The team designed a modern and user-friendly website for our brand. Their continuous SEO and social media efforts keep our business growing.",
+    "createdAt": "2026-08-11T06:49:14.634Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T06:49:14.637Z"
+  },
+  {
+    "_id": "6a7ac5eaa64cdbce8adc8ff6",
+    "clientName": "Kamal Kishore",
+    "role": "Client",
+    "company": "Fintech Solutions",
+    "rating": 5,
+    "quote": "Exceptional ROI on Google PPC & Meta Ads. Our customer acquisition cost dropped by 35% in just two months.",
+    "createdAt": "2026-08-11T06:49:14.634Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T06:49:14.637Z"
+  },
+  {
+    "_id": "6a7ac650a64cdbce8adc8ff7",
+    "clientName": "sarbjeet",
+    "role": "Client",
+    "company": "234sector-11",
+    "rating": 4,
+    "quote": "this is amazing platform",
+    "createdAt": "2026-08-11T06:50:56.166Z",
+    "updatedAt": "2026-08-14T07:46:37.525Z",
+    "__v": 0
+  }
+]

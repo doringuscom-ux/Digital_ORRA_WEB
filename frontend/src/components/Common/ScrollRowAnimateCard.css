@@ -1,0 +1,39 @@
+/* Alternating Scroll Row Animation Styles */
+
+.scroll-row-card {
+  opacity: 0;
+  transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+  min-width: 0 !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+/* 1st, 3rd, 5th Rows (Row Index 0, 2, 4...) -> Slide from RIGHT */
+.scroll-row-card.slide-from-right {
+  transform: translateX(60px) scale(0.96);
+}
+
+/* 2nd, 4th, 6th Rows (Row Index 1, 3, 5...) -> Slide from LEFT */
+.scroll-row-card.slide-from-left {
+  transform: translateX(-60px) scale(0.96);
+}
+
+/* Activated when scrolled into viewport */
+.scroll-row-card.is-visible {
+  opacity: 1;
+  transform: translateX(0) scale(1);
+}
+
+/* Prevent horizontal offset & ensure 100% horizontal centering on mobile */
+@media (max-width: 768px) {
+  .scroll-row-card.slide-from-right,
+  .scroll-row-card.slide-from-left {
+    transform: translateY(20px) scale(0.98) !important;
+  }
+
+  .scroll-row-card.is-visible {
+    opacity: 1 !important;
+    transform: translateY(0) scale(1) !important;
+  }
+}

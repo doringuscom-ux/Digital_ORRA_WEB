@@ -1,0 +1,114 @@
+[
+  {
+    "_id": "6a7ac21be906fa72c4876ffa",
+    "category": "Team & Events",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436603/digitalorra_dynamic/yrufyf1nrn4yaf59prkx.webp",
+    "createdAt": "2026-08-11T06:32:59.578Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:23:23.433Z"
+  },
+  {
+    "_id": "6a7ac21be906fa72c4876ffb",
+    "category": "Office Life",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436605/digitalorra_dynamic/uc05kdgr76vtqifddjuu.webp",
+    "createdAt": "2026-08-11T06:32:59.578Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:23:24.460Z"
+  },
+  {
+    "_id": "6a7ac21be906fa72c4876ffc",
+    "category": "Awards & Moments",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436606/digitalorra_dynamic/jz8ux4v7rdrlhuxjtpgz.webp",
+    "createdAt": "2026-08-11T06:32:59.578Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:23:25.793Z"
+  },
+  {
+    "_id": "6a7ac21be906fa72c4876ffd",
+    "category": "Workshops",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436608/digitalorra_dynamic/wembijkjhowd4brxmlpq.webp",
+    "createdAt": "2026-08-11T06:32:59.578Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:23:27.250Z"
+  },
+  {
+    "_id": "6a7ac21be906fa72c4876ffe",
+    "category": "Projects",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436609/digitalorra_dynamic/s3ngwvr91rmxhqinhq2d.webp",
+    "createdAt": "2026-08-11T06:32:59.578Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:23:28.652Z"
+  },
+  {
+    "_id": "6a7ac21be906fa72c4876fff",
+    "category": "Team & Events",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436610/digitalorra_dynamic/dwdv1rk1fgoiyvpsfll2.webp",
+    "createdAt": "2026-08-11T06:32:59.578Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:23:29.697Z"
+  },
+  {
+    "_id": "6a7ac21be906fa72c4877000",
+    "category": "Team & Events",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436612/digitalorra_dynamic/pusxxy85ryjoohfwtehb.jpg",
+    "createdAt": "2026-08-11T06:32:59.578Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:23:30.981Z"
+  },
+  {
+    "_id": "6a7ac21be906fa72c4877001",
+    "category": "Office Life",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436614/digitalorra_dynamic/tmf68jnvowhupskbgfbk.jpg",
+    "createdAt": "2026-08-11T06:32:59.578Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:23:33.198Z"
+  },
+  {
+    "_id": "6a7ac21be906fa72c4877002",
+    "category": "Awards & Moments",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436615/digitalorra_dynamic/ldf5ubec4p3hmfy8pxdr.webp",
+    "createdAt": "2026-08-11T06:32:59.578Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:23:35.275Z"
+  },
+  {
+    "_id": "6a7ac21be906fa72c4877003",
+    "category": "Workshops",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436618/digitalorra_dynamic/fkq2eqzr8uejcpi7gses.webp",
+    "createdAt": "2026-08-11T06:32:59.578Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:23:37.708Z"
+  },
+  {
+    "_id": "6a7ac21be906fa72c4877004",
+    "category": "Projects",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436620/digitalorra_dynamic/bilprzaphv9jy1o2ldnm.webp",
+    "createdAt": "2026-08-11T06:32:59.578Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:23:39.882Z"
+  },
+  {
+    "_id": "6a7ac21be906fa72c4877005",
+    "category": "Team & Events",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436622/digitalorra_dynamic/z5nzweepg9kmtkxp7g6v.webp",
+    "createdAt": "2026-08-11T06:32:59.578Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:23:41.522Z"
+  },
+  {
+    "_id": "6a7ac21be906fa72c4877006",
+    "category": "Office Life",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436624/digitalorra_dynamic/jjxb22qtugzrd8yiirdi.webp",
+    "createdAt": "2026-08-11T06:32:59.578Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:23:43.698Z"
+  },
+  {
+    "_id": "6a7ac21be906fa72c4877007",
+    "category": "Projects",
+    "image": "https://res.cloudinary.com/fykd8cyh/image/upload/v1786436626/digitalorra_dynamic/dlqzyyencrx69se3eze2.webp",
+    "createdAt": "2026-08-11T06:32:59.578Z",
+    "__v": 0,
+    "updatedAt": "2026-08-11T08:23:45.605Z"
+  }
+]
